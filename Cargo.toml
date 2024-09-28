@@ -1,0 +1,21 @@
+[package]
+name = "dale-img-conv"
+version = "0.1.0"
+authors = ["= <jonas-zunker@web.de>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus = { version = "0.5", features = ["web", "router"] }
+
+# Debug
+dioxus-logger = "0.5.1"
+
+anyhow = "1.0.89"
+image = "0.25.2"
+kiddo = "4.2.1"
+palette = "0.7.6"
+base64 = "0.22.1"
+web-sys = "0.3.70"
