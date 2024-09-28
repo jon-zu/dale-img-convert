@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dale & Dawson Image Converter</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+  <div id="main"></div>
+  <script type="module">
+    import init from "/dale-img-convert/assets/dioxus/dale-img-conv.js";
+    init("/dale-img-convert/assets/dioxus/dale-img-conv_bg.wasm").then(wasm => {
+      if (wasm.__wbindgen_start == undefined) {
+        wasm.main();
+      }
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>

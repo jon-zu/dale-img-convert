@@ -1,14 +1,14 @@
 [application]
 
 # App (Project) Name
-name = "Dale & Dawson Image Converter"
+name = "dale-img-conv"
 
 # Dioxus App Default Platform
 # web, desktop, fullstack
 default_platform = "web"
 
 # `build` & `serve` dist path
-out_dir = "dist"
+out_dir = "docs"
 
 # resource (assets) file folder
 asset_dir = "assets"
@@ -16,7 +16,9 @@ asset_dir = "assets"
 [web.app]
 
 # HTML title tag content
-title = "dale-img-conv"
+title = "Dale & Dawson Image Converter"
+
+base_path = "dale-img-convert"
 
 [web.watcher]
 
